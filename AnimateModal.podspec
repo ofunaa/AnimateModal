@@ -4,7 +4,7 @@ s.version          = "0.1.0"
 s.summary          = "AnimateModal create animation modal easily!"
 s.homepage         = "https://github.com/takujifunao/AnimateModal"
 s.license          = 'MIT'
-s.author           = { "takujifunao" }
+s.author           = { "takujifunao" => "dev.closedcafe.com" }
 s.source           = { :git => "https://github.com/takujifunao/AnimateModal.git", :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/cat__tac'
 s.platform     = :ios, '7.0'
