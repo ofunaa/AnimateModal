@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '63047B1C351EB56021EEE00D'
+               BlueprintIdentifier = '0878629ADBA1EE5353D6785E'
                BlueprintName = 'AnimateModal'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AnimateModal.framework'>

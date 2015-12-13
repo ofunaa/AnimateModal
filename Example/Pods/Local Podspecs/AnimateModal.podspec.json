@@ -1,25 +1,23 @@
 {
   "name": "AnimateModal",
   "version": "0.1.0",
-  "summary": "A short description of AnimateModal.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AnimateModal",
+  "summary": "AnimateModal create animation modal easily!",
+  "homepage": "https://github.com/takujifunao/AnimateModal",
   "license": "MIT",
   "authors": {
     "takujifunao": "takuji.funao@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AnimateModal.git",
+    "git": "https://github.com/takujifunao/AnimateModal.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/cat__tac",
   "platforms": {
     "ios": "7.0"
   },
-  "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "AnimateModal": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Classes/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }

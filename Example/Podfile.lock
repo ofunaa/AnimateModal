@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnimateModal: 57a045e51f537808d4b6574e63ab4235dd832597
+  AnimateModal: 4e69e9f1511b6c2f17b736fd8e3a18b676707cbf
 
 COCOAPODS: 0.39.0
