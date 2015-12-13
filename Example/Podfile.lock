@@ -1,0 +1,14 @@
+PODS:
+  - AnimateModal (0.1.0)
+
+DEPENDENCIES:
+  - AnimateModal (from `../`)
+
+EXTERNAL SOURCES:
+  AnimateModal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimateModal: 57a045e51f537808d4b6574e63ab4235dd832597
+
+COCOAPODS: 0.39.0

@@ -1,40 +1,18 @@
-#
-# Be sure to run `pod lib lint AnimateModal.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "AnimateModal"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of AnimateModal."
+s.name             = "AnimateModal"
+s.version          = "0.1.0"
+s.summary          = "AnimateModal create animation modal easily!"
+s.homepage         = "https://github.com/takujifunao/AnimateModal"
+s.license          = 'MIT'
+s.author           = { "takujifunao" }
+s.source           = { :git => "https://github.com/takujifunao/AnimateModal.git", :tag => s.version.to_s }
+s.social_media_url = 'https://twitter.com/cat__tac'
+s.platform     = :ios, '7.0'
+s.requires_arc = true
+s.source_files = 'Pod/Classes/*.{h,m}'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/AnimateModal"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "takujifunao" => "takuji.funao@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/AnimateModal.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'AnimateModal' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.resource_bundles = {
+'ASRManager' => ['Pod/Assets/*.png']
+}
+s.frameworks = 'UIKit'
 end

@@ -1,0 +1,25 @@
+{
+  "name": "AnimateModal",
+  "version": "0.1.0",
+  "summary": "A short description of AnimateModal.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AnimateModal",
+  "license": "MIT",
+  "authors": {
+    "takujifunao": "takuji.funao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AnimateModal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AnimateModal": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
