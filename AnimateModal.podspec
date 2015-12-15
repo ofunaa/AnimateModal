@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/takujifunao/AnimateModal.git', :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/cat__tac'
     s.platform     = :ios, '7.0'
-    s.source_files = 'Pod/Classes/*'
+    s.source_files = 'Pod/Classes/*.{h,m}'
     s.frameworks = 'UIKit','Foundation'
+    s.requires_arc = false
 end
