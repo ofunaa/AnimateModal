@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'AnimateModal'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.summary          = 'AnimateModal create animation modal easily!'
     s.homepage         = 'https://github.com/takujifunao/AnimateModal'
     s.license          = 'MIT'
